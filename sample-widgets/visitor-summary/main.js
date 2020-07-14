@@ -3790,6 +3790,7 @@ const VisitorSummaryCardWidget = (props) => {
         React.createElement("div", { className: "visitor-summary-card-placeholder" })));
 };
 uxp_1.registerWidget({
+    "guid": "0356a2af-78da-4e99-c3e1-4cb822539cee",
     "name": "Visitor Summary Card",
     "widget": VisitorSummaryCardWidget,
     "configs": {

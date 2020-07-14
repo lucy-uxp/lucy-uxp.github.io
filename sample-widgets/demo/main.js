@@ -45213,20 +45213,21 @@ const MonthlyConsumption_1 = __webpack_require__(/*! ./components/MonthlyConsump
 const MeetingRoom_1 = __webpack_require__(/*! ./components/navigation_widgets/MeetingRoom */ "./src/components/navigation_widgets/MeetingRoom.tsx");
 const CreateRequest_1 = __webpack_require__(/*! ./components/navigation_widgets/CreateRequest */ "./src/components/navigation_widgets/CreateRequest.tsx");
 const LinkWidgetTemplate_1 = __webpack_require__(/*! ./components/template/LinkWidgetTemplate */ "./src/components/template/LinkWidgetTemplate.tsx");
-window.registerWidget({ "name": "MeetingRoomBookingWidget", "widget": MeetingRoom_1.default, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
-window.registerWidget({ "name": "CreateRequestWidget", "widget": CreateRequest_1.default, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
+window.registerWidget({ "guid": "e872ce46-a55d-4ded-c551-1b8f6b562ba1", "name": "MeetingRoomBookingWidget", "widget": MeetingRoom_1.default, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
+window.registerWidget({ "guid": "2fc0b5b4-bf52-48fe-95d6-6ee3e9a0d258", "name": "CreateRequestWidget", "widget": CreateRequest_1.default, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
 // window.registerWidget({ "name": "FacilityBookingWidget", "widget": FacilityBooking, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
 // window.registerWidget({ "name": "DeskBookingWidget", "widget": DeskBooking, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
 // window.registerWidget({ "name": "QRWidget", "widget": QRBadge, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
 // window.registerWidget({ "name": "ReportEmergencyWidget", "widget": ReportEmergency, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
 // window.registerWidget({ "name": "RegisterVisitorsWidget", "widget": RegisterVisitor, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
-window.registerWidget({ "name": "VisitorWidget", "widget": Visitor_1.default });
-window.registerWidget({ "name": "ParkingWidget", "widget": Parking_1.default });
-window.registerWidget({ "name": "PersonalConsumptionWidget", "widget": PersonalConsumption_1.default });
-window.registerWidget({ "name": "CarbonFootPrintWidget", "widget": CarbonFootPrint_1.default });
-window.registerWidget({ "name": "FloorWiseConsumptionWidget", "widget": FloorWiseConsumption_1.default });
-window.registerWidget({ "name": "MonthlyConsumptionWidget", "widget": MonthlyConsumption_1.default });
+window.registerWidget({ "guid": "c04dc677-68a9-400c-9b8a-8a53014583a6", "name": "VisitorWidget", "widget": Visitor_1.default });
+window.registerWidget({ "guid": "82d92977-bae8-414a-c5d0-32f52420fc5f", "name": "ParkingWidget", "widget": Parking_1.default });
+window.registerWidget({ "guid": "199e2e98-228f-47a8-ed1e-723425405f22", "name": "PersonalConsumptionWidget", "widget": PersonalConsumption_1.default });
+window.registerWidget({ "guid": "31e4243b-7ce6-48e9-892d-a555889a0539", "name": "CarbonFootPrintWidget", "widget": CarbonFootPrint_1.default });
+window.registerWidget({ "guid": "8335e2e6-9f32-4c40-bd32-13f64d170d9c", "name": "FloorWiseConsumptionWidget", "widget": FloorWiseConsumption_1.default });
+window.registerWidget({ "guid": "ad7fbe6c-651d-4beb-b830-116f521b42ed", "name": "MonthlyConsumptionWidget", "widget": MonthlyConsumption_1.default });
 window.registerWidget({
+    "guid": "adde5933-67a4-40dc-c69e-733746945c8b",
     "name": "LinkWidgetTemplate",
     "widget": LinkWidgetTemplate_1.default,
     "configs": {
