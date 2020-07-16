@@ -86,24 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/filter-panel/filter_panel.scss":
-/*!*************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/filter-panel/filter_panel.scss ***!
-  \*************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, ".filter-panel-btn {\n  position: relative; }\n  .filter-panel-btn.fpb-burger-menu {\n    width: 30px;\n    height: 30px;\n    border-radius: 6px;\n    background-color: #ecebeb;\n    cursor: pointer;\n    overflow: hidden; }\n    .filter-panel-btn.fpb-burger-menu .icon {\n      width: 100%;\n      height: 100%;\n      background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHRpdGxlPmlvbmljb25zLXY1LW48L3RpdGxlPjxwYXRoIGQ9Ik0yOTYsNDY0YTIzLjg4LDIzLjg4LDAsMCwxLTcuNTUtMS4yM2wtODAuMTUtMjYuNjdBMjMuOTIsMjMuOTIsMCwwLDEsMTkyLDQxMy4zMlYyOTQuMTFhLjQ0LjQ0LDAsMCwwLS4wOS0uMTNMMjMuMjYsOTcuNTRBMzAsMzAsMCwwLDEsNDYuMDUsNDhINDY2YTMwLDMwLDAsMCwxLDIyLjc5LDQ5LjU0TDMyMC4wOSwyOTRhLjc3Ljc3LDAsMCwwLS4wOS4xM1Y0NDBhMjMuOTMsMjMuOTMsMCwwLDEtMjQsMjRaIi8+PC9zdmc+\");\n      background-position: center;\n      background-repeat: no-repeat;\n      background-size: 50%; }\n\n.filter-panel {\n  position: absolute;\n  background-color: white;\n  box-sizing: border-box;\n  width: auto;\n  min-width: 200px;\n  height: auto;\n  border-radius: 15px;\n  overflow: hidden;\n  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.12); }\n  .filter-panel * {\n    box-sizing: border-box; }\n  .filter-panel .filter-header {\n    padding: 15px;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    border-bottom: 1px solid lightgray; }\n    .filter-panel .filter-header .burger-menu-btn {\n      width: 30px;\n      height: 30px;\n      border-radius: 6px;\n      background-color: purple;\n      cursor: pointer;\n      animation: animate 0.2s linear;\n      animation-fill-mode: forwards; }\n      .filter-panel .filter-header .burger-menu-btn .icon {\n        width: 100%;\n        height: 100%;\n        background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHRpdGxlPmlvbmljb25zLXY1LW48L3RpdGxlPjxwYXRoIGQ9Ik0yOTYsNDY0YTIzLjg4LDIzLjg4LDAsMCwxLTcuNTUtMS4yM2wtODAuMTUtMjYuNjdBMjMuOTIsMjMuOTIsMCwwLDEsMTkyLDQxMy4zMlYyOTQuMTFhLjQ0LjQ0LDAsMCwwLS4wOS0uMTNMMjMuMjYsOTcuNTRBMzAsMzAsMCwwLDEsNDYuMDUsNDhINDY2YTMwLDMwLDAsMCwxLDIyLjc5LDQ5LjU0TDMyMC4wOSwyOTRhLjc3Ljc3LDAsMCwwLS4wOS4xM1Y0NDBhMjMuOTMsMjMuOTMsMCwwLDEtMjQsMjRaIi8+PC9zdmc+\");\n        background-position: center;\n        background-repeat: no-repeat;\n        background-size: 50%;\n        filter: saturate(100%) brightness(0%) invert(100%);\n        transform: rotate(45deg);\n        background-color: transparent; }\n\n@keyframes animate {\n  from {\n    transform: rotate(0deg); }\n  to {\n    transform: rotate(-45deg); } }\n  .filter-panel .filter-body {\n    width: 100%;\n    padding: 15px 10px; }\n", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.scss":
 /*!******************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.scss ***!
@@ -115,7 +97,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".ac-request-container {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  background-color: white;\n  border-radius: 10px;\n  padding: 10px;\n  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.12); }\n  .ac-request-container .header {\n    position: relative;\n    width: 100%;\n    height: auto;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    padding: 5px;\n    border-bottom: 1px solid #ccc; }\n    .ac-request-container .header .title {\n      width: auto;\n      height: auto;\n      display: flex;\n      align-items: center;\n      justify-content: center; }\n      .ac-request-container .header .title .icon {\n        width: 30px;\n        height: 30px;\n        background-color: transparent;\n        background-image: url(\"data:image/png;base64,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\");\n        background-position: center;\n        background-repeat: no-repeat;\n        background-size: 90%;\n        margin-right: 10px; }\n      .ac-request-container .header .title .text {\n        text-transform: uppercase; }\n  .ac-request-container .body {\n    position: relative;\n    width: 100%;\n    height: auto;\n    max-height: 90%;\n    overflow-y: auto;\n    overflow-x: hidden; }\n    .ac-request-container .body .ac-request-thumbnail {\n      position: relative;\n      width: 100%;\n      height: auto;\n      display: flex;\n      align-items: stretch;\n      background-color: white;\n      padding: 10px;\n      border-bottom: 1px solid #ccc; }\n      .ac-request-container .body .ac-request-thumbnail:last-child {\n        border-bottom: none; }\n      .ac-request-container .body .ac-request-thumbnail .status-indicator {\n        width: 30px;\n        height: auto;\n        position: relative; }\n        .ac-request-container .body .ac-request-thumbnail .status-indicator::before {\n          content: \"\";\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          width: 7px;\n          height: 7px;\n          border-radius: 50%;\n          background-color: gray; }\n      .ac-request-container .body .ac-request-thumbnail .request-details {\n        width: auto;\n        max-width: 70%;\n        margin: 0 10px; }\n        .ac-request-container .body .ac-request-thumbnail .request-details .request {\n          font-weight: 900;\n          padding: 3px; }\n        .ac-request-container .body .ac-request-thumbnail .request-details .user {\n          padding: 3px; }\n        .ac-request-container .body .ac-request-thumbnail .request-details .section {\n          padding: 3px; }\n      .ac-request-container .body .ac-request-thumbnail .status {\n        width: auto;\n        margin: auto;\n        margin-right: 10px; }\n        .ac-request-container .body .ac-request-thumbnail .status .label {\n          width: auto;\n          height: auto;\n          padding: 8px 2px;\n          background-color: gray;\n          border-radius: 20px;\n          font-size: 10px;\n          color: white;\n          text-align: center;\n          margin-bottom: 4px;\n          text-transform: capitalize; }\n        .ac-request-container .body .ac-request-thumbnail .status .date {\n          color: #FA5B5BC4; }\n      .ac-request-container .body .ac-request-thumbnail.pending .status-indicator::before {\n        background-color: #FFA133; }\n      .ac-request-container .body .ac-request-thumbnail.pending .request-details .request {\n        color: #FFA133; }\n      .ac-request-container .body .ac-request-thumbnail.pending .status .label {\n        background-color: #FFA133; }\n      .ac-request-container .body .ac-request-thumbnail.rejected .status-indicator::before {\n        background-color: #FA5B5BC4; }\n      .ac-request-container .body .ac-request-thumbnail.rejected .status .label {\n        background-color: #FA5B5BC4; }\n      .ac-request-container .body .ac-request-thumbnail.approved .status-indicator::before {\n        background-color: #52c4c9; }\n      .ac-request-container .body .ac-request-thumbnail.approved .status .label {\n        background-color: #52c4c9; }\n\n.filter-item {\n  width: 100%;\n  height: auto;\n  padding: 0 10px;\n  margin-bottom: 10px; }\n  .filter-item label {\n    margin: 0; }\n  .filter-item select {\n    width: 100%;\n    padding: 8px;\n    border-radius: 8px;\n    border: none;\n    outline: none; }\n", ""]);
+exports.push([module.i, ".list-container {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  background-color: white;\n  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.12);\n  border-radius: 10px;\n  overflow: hidden;\n  padding-top: 60px; }\n  .list-container .header {\n    position: absolute;\n    top: 0;\n    width: 100%;\n    height: 60px;\n    padding: 8px 15px;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    border-bottom: 1px solid #ccc; }\n    .list-container .header .title {\n      width: auto;\n      height: auto;\n      display: flex;\n      align-items: center;\n      justify-content: center; }\n      .list-container .header .title .icon {\n        width: 30px;\n        height: 30px;\n        background-color: transparent;\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAALqADAAQAAAABAAAALgAAAABxWgY+AAAC4UlEQVRoBe2YyYoUQRCG231fcMUFV1BxRBQRRBBRfABBzz6bLyAe9QW86EH04A7OoKPgLuq4L9/XTEkZnd1dXdUbWAHfTGdkVeafkVlR0d1o1FZHoI5AHYE6AnUE6gj8BxGY02GNS+hb1KF/GF1fmERaLCVc3244BkshdQ3ugdtvZvgE12AS/rGUKMVeAKM9DT9gFDafSbfBB7gI3+Gv2RltAY6NcAWux84ht08w32mYG+dtceQucKu0zbC++WmM/nQSnsk8z4czWWNc/qeOStQ2heN9dI66XUT4VUT+GrXQOH8R4V/jTePQLiI8pfMATtNmP8x0d7fXgcoIN/cfh1W9Ttbm+hf4hyLcNHkJyiw6pf1bytnNV3by190GHnR/L8LXIOYc7IBUqYC7tLmLD+EyFEq9vQifYdCbYF4fhL1k0GQlmJosJdzVW1itA2uWfA5X9KCEM3RjpX9mzbe6u5ws8lLCzdsP4Ajsg6xm4eNQTeHL4Ta0iG93Vhdzsbl6AxSpZ7is7+ZOP4c7MJYvwb6vuNuA7tYysH6P5i6tjc7ZttevaNNX2F3lGHj+TsIeiONswXcWPGrR9uM4BZXExwnjJJ3a8+hU2EFYGC60vRMOB79Na5wJSC3K/kJWRbgvivtgBLeG2R7TfgpHIX57MmP5sLlgk0ApqyLcNKk4F7ApzG5GuAGm23jWP+LzLWmOjjuFq5hVEe5RUbBRs8LLmw+g6dTIvsl38NmzvR2sd0oVWNzX8lDpK2pmlL0wBU/CTT6c/jZzC16Fvl20vfceuLBSViXiRtUHzWjHyCnMHZmGfMlAsxlxaxKPmMetlFUR7q9MvtkOQfxSoeAZ8HcRf1jK2ySN1WDkXVwpK30js1k//IQJeAfPIDMj6o5Y65hh3kJmHg8fWLPNI4i7hau7VRHu6IpwDEXnxdFsHgUfXMUZ/cxcrIv+DGYl2yMxU5qv/5S1y9Mu1lRZWx2BOgJtIvAHWNluEVMveHAAAAAASUVORK5CYII=\");\n        background-position: center;\n        background-repeat: no-repeat;\n        background-size: 90%;\n        margin-right: 10px; }\n      .list-container .header .title .text {\n        text-transform: uppercase; }\n        .list-container .header .title .text span {\n          width: auto;\n          height: auto;\n          padding: 6px 15px;\n          border-radius: 50px;\n          margin-left: 15px; }\n          .list-container .header .title .text span.high {\n            background-color: #ec4b7b;\n            color: white; }\n          .list-container .header .title .text span.low {\n            background-color: #707070;\n            color: white; }\n  .list-container .body {\n    width: 100%;\n    height: auto;\n    max-height: 100%;\n    padding: 8px 15px;\n    overflow: auto; }\n    .list-container .body .list-thumbnail {\n      position: relative;\n      width: 100%;\n      height: auto;\n      display: flex;\n      align-items: stretch;\n      background-color: white;\n      padding: 10px 0;\n      border-bottom: 1px solid #ccc; }\n      .list-container .body .list-thumbnail:last-child {\n        border-bottom: none; }\n      .list-container .body .list-thumbnail .status-indicator {\n        width: 35px;\n        height: 35px;\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center; }\n        .list-container .body .list-thumbnail .status-indicator div {\n          width: 5px;\n          height: 5px;\n          border-radius: 50%;\n          background-color: gray; }\n      .list-container .body .list-thumbnail .request-details {\n        width: auto;\n        max-width: 70%;\n        margin: 0 10px; }\n        .list-container .body .list-thumbnail .request-details .request {\n          font-weight: 900;\n          padding: 3px; }\n        .list-container .body .list-thumbnail .request-details .description {\n          display: inline-block;\n          padding: 3px; }\n        .list-container .body .list-thumbnail .request-details .sections {\n          display: inline-block;\n          padding: 3px; }\n          .list-container .body .list-thumbnail .request-details .sections .section {\n            display: inline-block;\n            width: auto;\n            height: auto;\n            padding: 4px 8px;\n            background-color: #ecebeb;\n            border-radius: 50px;\n            margin: 1px; }\n      .list-container .body .list-thumbnail .status {\n        width: auto;\n        margin: auto;\n        margin-right: 10px; }\n        .list-container .body .list-thumbnail .status .label {\n          width: auto;\n          height: auto;\n          padding: 4px 6px;\n          background-color: gray;\n          border-radius: 20px;\n          font-size: 10px;\n          color: white;\n          text-align: center;\n          margin-bottom: 4px;\n          text-transform: capitalize; }\n        .list-container .body .list-thumbnail .status .date {\n          color: #424242; }\n      .list-container .body .list-thumbnail.pending .status-indicator::before {\n        background-color: #ffa133; }\n      .list-container .body .list-thumbnail.pending .request-details .request {\n        color: #ffa133; }\n      .list-container .body .list-thumbnail.pending .status .label {\n        background-color: #ffa133; }\n      .list-container .body .list-thumbnail.rejected .status-indicator::before {\n        background-color: #ec4b7b; }\n      .list-container .body .list-thumbnail.rejected .status .label {\n        background-color: #ec4b7b; }\n      .list-container .body .list-thumbnail.approved .status-indicator::before {\n        background-color: #2cc8b3; }\n      .list-container .body .list-thumbnail.approved .status .label {\n        background-color: #2cc8b3; }\n  .list-container .footer {\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    height: auto;\n    padding: 0;\n    background-color: white; }\n    .list-container .footer .scroll-btn {\n      position: relative;\n      width: 100%;\n      height: auto;\n      min-height: 25px;\n      background-color: #ecebeb;\n      display: flex;\n      align-items: center;\n      justify-content: center; }\n      .list-container .footer .scroll-btn .icon-container {\n        width: 30px;\n        height: 30px; }\n        .list-container .footer .scroll-btn .icon-container .icon {\n          width: 100%;\n          height: 100%;\n          background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi4xNCIgaGVpZ2h0PSIxMC40MjMiIHZpZXdCb3g9IjAgMCAxNi4xNCAxMC40MjMiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiM0MjQyNDI7b3BhY2l0eTowLjcwMjt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik03LjIxNCwyMC44MDguMzUyLDEzLjk0NmExLjIwNiwxLjIwNiwwLDAsMSwwLTEuNzFsMS4xNC0xLjE0YTEuMjA2LDEuMjA2LDAsMCwxLDEuNzEsMGw0Ljg2NCw0Ljg2NEwxMi45MywxMS4xYTEuMjA2LDEuMjA2LDAsMCwxLDEuNzEsMGwxLjE0LDEuMTRhMS4yMDYsMS4yMDYsMCwwLDEsMCwxLjcxTDguOTE5LDIwLjgwOEExLjIsMS4yLDAsMCwxLDcuMjE0LDIwLjgwOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDA0IC0xMC43NCkiLz48L3N2Zz4=\");\n          background-position: center;\n          background-repeat: no-repeat;\n          background-size: 45%; }\n      .list-container .footer .scroll-btn:hover {\n        background-color: #dedede; }\n      .list-container .footer .scroll-btn.scroll-up {\n        margin-bottom: 2px;\n        border-radius: 6px 6px 0 0; }\n        .list-container .footer .scroll-btn.scroll-up .icon-container .icon {\n          transform: rotate(180deg); }\n  .list-container.has-footer.full {\n    padding-bottom: 60px; }\n  .list-container.has-footer.half {\n    padding-bottom: 30px; }\n    .list-container.has-footer.half .footer .scroll-btn.scroll-up {\n      margin-bottom: 0px;\n      border-radius: 0; }\n\n.modal-container .modal-panel.sr-modal .srm-header {\n  width: 100%;\n  height: auto;\n  display: flex;\n  align-items: center;\n  justify-content: space-between; }\n  .modal-container .modal-panel.sr-modal .srm-header .title {\n    display: flex;\n    align-items: center; }\n    .modal-container .modal-panel.sr-modal .srm-header .title .icon {\n      width: 30px;\n      height: 30px;\n      background-color: transparent;\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAALqADAAQAAAABAAAALgAAAABxWgY+AAAC4UlEQVRoBe2YyYoUQRCG231fcMUFV1BxRBQRRBBRfABBzz6bLyAe9QW86EH04A7OoKPgLuq4L9/XTEkZnd1dXdUbWAHfTGdkVeafkVlR0d1o1FZHoI5AHYE6AnUE6gj8BxGY02GNS+hb1KF/GF1fmERaLCVc3244BkshdQ3ugdtvZvgE12AS/rGUKMVeAKM9DT9gFDafSbfBB7gI3+Gv2RltAY6NcAWux84ht08w32mYG+dtceQucKu0zbC++WmM/nQSnsk8z4czWWNc/qeOStQ2heN9dI66XUT4VUT+GrXQOH8R4V/jTePQLiI8pfMATtNmP8x0d7fXgcoIN/cfh1W9Ttbm+hf4hyLcNHkJyiw6pf1bytnNV3by190GHnR/L8LXIOYc7IBUqYC7tLmLD+EyFEq9vQifYdCbYF4fhL1k0GQlmJosJdzVW1itA2uWfA5X9KCEM3RjpX9mzbe6u5ws8lLCzdsP4Ajsg6xm4eNQTeHL4Ta0iG93Vhdzsbl6AxSpZ7is7+ZOP4c7MJYvwb6vuNuA7tYysH6P5i6tjc7ZttevaNNX2F3lGHj+TsIeiONswXcWPGrR9uM4BZXExwnjJJ3a8+hU2EFYGC60vRMOB79Na5wJSC3K/kJWRbgvivtgBLeG2R7TfgpHIX57MmP5sLlgk0ApqyLcNKk4F7ApzG5GuAGm23jWP+LzLWmOjjuFq5hVEe5RUbBRs8LLmw+g6dTIvsl38NmzvR2sd0oVWNzX8lDpK2pmlL0wBU/CTT6c/jZzC16Fvl20vfceuLBSViXiRtUHzWjHyCnMHZmGfMlAsxlxaxKPmMetlFUR7q9MvtkOQfxSoeAZ8HcRf1jK2ySN1WDkXVwpK30js1k//IQJeAfPIDMj6o5Y65hh3kJmHg8fWLPNI4i7hau7VRHu6IpwDEXnxdFsHgUfXMUZ/cxcrIv+DGYl2yMxU5qv/5S1y9Mu1lRZWx2BOgJtIvAHWNluEVMveHAAAAAASUVORK5CYII=\");\n      background-position: center;\n      background-repeat: no-repeat;\n      background-size: 60%;\n      margin-right: 10px; }\n    .modal-container .modal-panel.sr-modal .srm-header .title .text {\n      text-transform: capitalize; }\n  .modal-container .modal-panel.sr-modal .srm-header .filters {\n    width: auto;\n    height: auto;\n    display: flex;\n    align-items: center;\n    justify-content: center; }\n    .modal-container .modal-panel.sr-modal .srm-header .filters .filter {\n      width: auto;\n      padding: 5px 10px;\n      background-color: white;\n      margin: 0 4px;\n      text-transform: capitalize;\n      border-radius: 50px;\n      cursor: pointer; }\n      .modal-container .modal-panel.sr-modal .srm-header .filters .filter:hover {\n        color: white; }\n        .modal-container .modal-panel.sr-modal .srm-header .filters .filter:hover.pending {\n          background-color: #ffa133; }\n        .modal-container .modal-panel.sr-modal .srm-header .filters .filter:hover.approved {\n          background-color: #2cc8b3; }\n        .modal-container .modal-panel.sr-modal .srm-header .filters .filter:hover.assigned {\n          background-color: #72a5f3; }\n        .modal-container .modal-panel.sr-modal .srm-header .filters .filter:hover.rejected {\n          background-color: #ec4b7b; }\n      .modal-container .modal-panel.sr-modal .srm-header .filters .filter.active {\n        color: white; }\n        .modal-container .modal-panel.sr-modal .srm-header .filters .filter.active.pending {\n          background-color: #ffa133; }\n        .modal-container .modal-panel.sr-modal .srm-header .filters .filter.active.approved {\n          background-color: #2cc8b3; }\n        .modal-container .modal-panel.sr-modal .srm-header .filters .filter.active.assigned {\n          background-color: #72a5f3; }\n        .modal-container .modal-panel.sr-modal .srm-header .filters .filter.active.rejected {\n          background-color: #ec4b7b; }\n\n.modal-container .modal-panel.sr-modal .modal-body .data-list {\n  width: 100%;\n  height: 100%; }\n  .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item {\n    width: 100%;\n    height: auto;\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\n    padding: 10px 0; }\n    .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .indicator {\n      all: unset;\n      width: 30px;\n      height: 30px;\n      position: relative;\n      background-color: transparent;\n      display: flex;\n      align-items: center;\n      justify-self: center; }\n      .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .indicator div {\n        width: 5px;\n        height: 5px;\n        border-radius: 50%;\n        background-color: gray; }\n    .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .request {\n      padding: 0 20px; }\n    .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .description {\n      margin: auto;\n      padding: 0 20px; }\n      .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .description .section {\n        width: auto;\n        display: inline-block;\n        height: auto;\n        background-color: #ecebeb;\n        border-radius: 50px;\n        padding: 4px 15px;\n        margin: 2px; }\n    .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .date {\n      margin: auto;\n      padding: 0 15px;\n      color: #ec4b7b; }\n    .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .action {\n      margin: auto;\n      margin-right: 10px;\n      width: auto; }\n      .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .action .approve {\n        width: 30px;\n        height: 30px;\n        border-radius: 50%;\n        background-color: #ecebeb;\n        cursor: pointer; }\n        .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .action .approve .icon-container {\n          width: 100%;\n          height: 100%;\n          background-color: transparent; }\n          .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .action .approve .icon-container .icon {\n            width: 100%;\n            height: 100%;\n            background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMS4wNTciIGhlaWdodD0iNy45MDUiIHZpZXdCb3g9IjAgMCAxMS4wNTcgNy45MDUiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOm5vbmU7c3Ryb2tlOiM0MjQyNDI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDoycHg7b3BhY2l0eTowLjU0O308L3N0eWxlPjwvZGVmcz48cGF0aCBjbGFzcz0iYSIgZD0iTTcwMS4yNTksMzc1Ljg3MmwyLjcyMiwyLjc3MSw1LjUwNy01LjQ5MSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTY5OS44NDUgLTM3MS43MzcpIi8+PC9zdmc+\");\n            background-position: center;\n            background-repeat: no-repeat;\n            background-size: 50%; }\n        .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .action .approve:hover {\n          background-color: #2cc8b3; }\n          .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .action .approve:hover .icon-container {\n            background-color: transparent; }\n            .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .action .approve:hover .icon-container .icon {\n              filter: saturate(100%) brightness(0) invert(1); }\n      .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item .action .assign select {\n        width: 100%;\n        padding: 8px;\n        border-radius: 8px;\n        border: none;\n        outline: none; }\n    .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item.pending .indicator div {\n      background-color: #ffa133; }\n    .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item.approved .indicator div {\n      background-color: #2cc8b3; }\n    .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item.assigned .indicator div {\n      background-color: #72a5f3; }\n    .modal-container .modal-panel.sr-modal .modal-body .data-list .data-item.rejected .indicator div {\n      background-color: #ec4b7b; }\n\n.filter-item {\n  width: 100%;\n  height: auto;\n  padding: 0 10px;\n  margin-bottom: 10px; }\n  .filter-item label {\n    margin: 0; }\n  .filter-item select {\n    width: 100%;\n    padding: 8px;\n    border-radius: 8px;\n    border: none;\n    outline: none; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -507,10 +489,10 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ "./src/filter-panel/FilterPanel.tsx":
-/*!******************************************!*\
-  !*** ./src/filter-panel/FilterPanel.tsx ***!
-  \******************************************/
+/***/ "./src/AfterHoursAcRequestWidget.tsx":
+/*!*******************************************!*\
+  !*** ./src/AfterHoursAcRequestWidget.tsx ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -518,124 +500,298 @@ module.exports = function (list, options) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
-const Portal_1 = __webpack_require__(/*! ./Portal */ "./src/filter-panel/Portal.tsx");
-__webpack_require__(/*! ./filter_panel.scss */ "./src/filter-panel/filter_panel.scss");
-function FilterPanel(props) {
-    // states
-    let [shopPanel, setShopPanel] = React.useState(false);
-    let [coords, setCoords] = React.useState({});
-    let filterPanel = React.useRef(null);
-    // update coordinates of filter panel
-    const updateTooltipCoords = (button) => {
-        const buttonDetails = button.getBoundingClientRect();
-        console.log(buttonDetails);
-        console.log(filterPanel.current);
-        let _coords = {
-            top: buttonDetails.y + window.scrollY - 15,
-            right: window.innerWidth - buttonDetails.right - 15,
-        };
-        setCoords(_coords);
-    };
-    // callbacks
-    const onOpenPanel = () => {
-        setShopPanel(true);
-        if (typeof props.onOpen == "function") {
-            props.onOpen();
-        }
-    };
-    const onClosePanel = () => {
-        setShopPanel(false);
-        if (typeof props.onClose == "function") {
-            props.onClose();
-        }
-    };
-    return (React.createElement(React.Fragment, null,
-        React.createElement("div", { className: "filter-panel-btn fpb-burger-menu", onClick: (e) => {
-                updateTooltipCoords(e.target);
-                onOpenPanel();
-            } },
-            React.createElement("div", { className: "icon" })),
-        shopPanel &&
-            React.createElement(Portal_1.default, null,
-                React.createElement("div", { className: "filter-panel", style: coords, ref: filterPanel },
-                    React.createElement("div", { className: "filter-header" },
-                        React.createElement("div", { className: "fh-title" },
-                            React.createElement("div", { className: "fht-icon" }),
-                            React.createElement("div", { className: "fht-text" }, "Filters")),
-                        React.createElement("div", { className: "burger-menu-btn", onClick: onClosePanel },
-                            React.createElement("div", { className: "icon" }))),
-                    React.createElement("div", { className: "filter-body" }, props.children)))));
-}
-exports.default = FilterPanel;
-
-
-/***/ }),
-
-/***/ "./src/filter-panel/Portal.tsx":
-/*!*************************************!*\
-  !*** ./src/filter-panel/Portal.tsx ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const React = __webpack_require__(/*! react */ "react");
-const ReactDom = __webpack_require__(/*! react-dom */ "react-dom");
-const PortalContainer = (props) => {
-    // root
-    let rootElement = document.getElementById('portal-root');
-    if (rootElement === null) {
-        rootElement = document.createElement('div');
-        rootElement.setAttribute("id", 'portal-root');
-        document.body.appendChild(rootElement);
-    }
-    // wrapper
-    let wrapper = document.createElement("div");
-    // bind, unbind
+const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+__webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
+const ServiceModal_1 = __webpack_require__(/*! ./ServiceModal */ "./src/ServiceModal.tsx");
+const AfterHoursAcRequestWidget = (props) => {
+    // data set
+    const data = [
+        {
+            request: "AC Extension request #81",
+            user: "Johnson & Johnson",
+            section: "Zone 3",
+            status: "pending",
+            date: "23/0702020"
+        },
+        {
+            request: "AC Extension request #80",
+            user: "Johnson & Johnson",
+            section: "Parking 1",
+            status: "approved",
+            date: "23/0702020"
+        },
+        {
+            request: "AC Extension request #80",
+            user: "Johnson & Johnson",
+            section: "Parking 1",
+            status: "approved",
+            date: "23/0702020"
+        },
+        {
+            request: "AC Extension request #79",
+            user: "Johnson & Johnson",
+            section: "Facility one",
+            status: "rejected",
+            date: "23/0702020"
+        },
+        {
+            request: "AC Extension request #81",
+            user: "Johnson & Johnson",
+            section: "Zone 3",
+            status: "pending",
+            date: "23/0702020"
+        },
+        {
+            request: "AC Extension request #81",
+            user: "Johnson & Johnson",
+            section: "Facility 12",
+            status: "approved",
+            date: "23/0702020"
+        },
+        {
+            request: "AC Extension request #81",
+            user: "Johnson & Johnson ",
+            section: "Zone 3",
+            status: "pending",
+            date: "23/0702020"
+        },
+        {
+            request: "AC Extension request #80",
+            user: "Johnson & Johnson",
+            section: "Parking 1",
+            status: "approved",
+            date: "23/0702020"
+        },
+        {
+            request: "AC Extension request #79",
+            user: "Johnson & Johnson",
+            section: "Facility one",
+            status: "rejected",
+            date: "23/0702020"
+        },
+        {
+            request: "AC Extension request#81",
+            user: "Johnson & Johnson",
+            section: "Zone 3",
+            status: "approved",
+            date: "23/0702020"
+        },
+        {
+            request: "AC Extension request #81",
+            user: "Johnson & Johnson ",
+            section: "Facility 12",
+            status: "rejected",
+            date: "23/0702020"
+        },
+    ];
+    // refs
+    const listContainerRef = React.useRef(null);
+    const listRef = React.useRef(null);
+    const listItemsRef = React.useRef([]);
+    // state
+    const [currentKey, setCurrentKey] = React.useState(0);
+    const [showFooter, setShowFooter] = React.useState(false);
+    const [showScrollUp, setShowScrollUp] = React.useState(false);
+    const [showScrollDown, setShowScrollDown] = React.useState(false);
+    const [showModal, setShowModal] = React.useState(false);
+    // toggle scroll buttons
     React.useEffect(() => {
-        rootElement.appendChild(wrapper);
-        return () => rootElement.removeChild(wrapper);
-    }, [rootElement, wrapper]);
-    // render content
-    const renderPortal = () => {
-        return (React.createElement(React.Fragment, null, props.children));
+        toggleFooter();
+    }, [currentKey]);
+    React.useEffect(() => {
+        console.log("show modal");
+        console.log(showModal);
+    }, [showModal]);
+    // toggle scroll buttons
+    const toggleFooter = () => {
+        // 
+        let showFooter = false;
+        let showUp = false;
+        let showDown = false;
+        let listDetails = listRef.current.getBoundingClientRect();
+        let lastItemDetails = listItemsRef.current[data.length - 1].getBoundingClientRect();
+        if (listDetails.height < (lastItemDetails.height * data.length)) {
+            showFooter = true;
+            showDown = true;
+        }
+        if (!((lastItemDetails.top >= listDetails.top + listDetails.height) || (lastItemDetails.top < listDetails.top))) {
+            showDown = false;
+        }
+        ;
+        if (currentKey > 0) {
+            showUp = true;
+        }
+        setShowFooter(showFooter);
+        setShowScrollUp(showUp);
+        setShowScrollDown(showDown);
     };
-    // return
-    return ReactDom.createPortal(renderPortal(), rootElement);
+    // scroll to list item
+    const scrollItemToView = (key) => {
+        let nextItemDetails = listItemsRef.current[key].getBoundingClientRect();
+        let scrollTop = nextItemDetails.height * key;
+        listRef.current.scrollTo({
+            top: scrollTop,
+            behavior: 'smooth'
+        });
+    };
+    // handle click on scroll button
+    const onClickScrollHandler = (direction) => {
+        // get key
+        let curKey = currentKey;
+        if (direction == "up") {
+            curKey = curKey - props.scrollStep;
+            if (curKey < 0)
+                curKey = 0;
+        }
+        else {
+            curKey = curKey + props.scrollStep;
+            if (curKey > data.length)
+                curKey = (data.length - 1);
+        }
+        setCurrentKey(curKey);
+        scrollItemToView(curKey);
+    };
+    // on scroll list container
+    const onScrollList = (e) => {
+        let listContainerDetails = listContainerRef.current.getBoundingClientRect();
+        data.map((item, key) => {
+            let element = listItemsRef.current[key];
+            let boundDetails = element.getBoundingClientRect();
+            if (boundDetails.top >= listContainerDetails.top + 60 && boundDetails.top <= listContainerDetails.top + 120) {
+                setCurrentKey(key);
+            }
+        });
+    };
+    let filterPanelProps = {
+        onOpen: () => { },
+        onClose: () => { }
+    };
+    if (props.expandedFilterPanel) {
+        filterPanelProps.fillContainer = listContainerRef;
+    }
+    // render
+    return (React.createElement(React.Fragment, null,
+        React.createElement("div", { className: `list-container ${showFooter && " has-footer"} ${(showScrollDown && showScrollUp) ? " full" : " half"}`, ref: listContainerRef, onScroll: onScrollList },
+            React.createElement("div", { className: "header" },
+                React.createElement("div", { className: "title" },
+                    React.createElement("div", { className: "icon" }),
+                    React.createElement("div", { className: "text" }, "After hours a/c requests")),
+                React.createElement("div", { className: "filter-container" },
+                    React.createElement(components_1.FilterPanel, Object.assign({}, filterPanelProps),
+                        React.createElement("div", { className: "filter-item" },
+                            React.createElement("label", { htmlFor: "" }, "Filter By"),
+                            React.createElement("select", { name: "", id: "" },
+                                React.createElement("option", { value: "" }, " Select a Filter"))),
+                        React.createElement("div", { className: "filter-item" },
+                            React.createElement("label", { htmlFor: "" }, "Sort By"),
+                            React.createElement("select", { name: "", id: "" },
+                                React.createElement("option", { value: "" }, " Select a Option")))))),
+            React.createElement("div", { className: "body", ref: listRef }, data.map((item, key) => {
+                return (React.createElement("div", { className: `list-thumbnail ${item.status.toLowerCase()}`, ref: (el) => (listItemsRef.current[key] = el), onClick: () => setShowModal(true) },
+                    React.createElement("div", { className: "status-indicator" },
+                        React.createElement("div", null)),
+                    React.createElement("div", { className: "request-details" },
+                        React.createElement("div", { className: "request" },
+                            " ",
+                            item.request,
+                            " "),
+                        React.createElement("div", { className: "description" },
+                            item.user,
+                            " "),
+                        React.createElement("div", { className: "section" },
+                            " ",
+                            item.section,
+                            " ")),
+                    React.createElement("div", { className: "status" },
+                        React.createElement("div", { className: "label" }, item.status),
+                        React.createElement("div", { className: "date" }, item.date))));
+            })),
+            showFooter &&
+                React.createElement("div", { className: "footer" },
+                    showScrollUp &&
+                        React.createElement("div", { className: "scroll-btn scroll-up", onClick: () => onClickScrollHandler("up") },
+                            React.createElement("div", { className: "icon-container" },
+                                React.createElement("div", { className: "icon" }))),
+                    showScrollDown &&
+                        React.createElement("div", { className: "scroll-btn scroll-down", onClick: () => onClickScrollHandler("down") },
+                            React.createElement("div", { className: "icon-container" },
+                                React.createElement("div", { className: "icon" }))))),
+        React.createElement(ServiceModal_1.default, { show: showModal, onClose: () => setShowModal(false), data: data })));
 };
-exports.default = PortalContainer;
+// default props
+AfterHoursAcRequestWidget.defaultProps = {
+    scrollStep: 5,
+    expandedFilterPanel: false
+};
+exports.default = AfterHoursAcRequestWidget;
 
 
 /***/ }),
 
-/***/ "./src/filter-panel/filter_panel.scss":
-/*!********************************************!*\
-  !*** ./src/filter-panel/filter_panel.scss ***!
-  \********************************************/
+/***/ "./src/ServiceModal.tsx":
+/*!******************************!*\
+  !*** ./src/ServiceModal.tsx ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./filter_panel.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/filter-panel/filter_panel.scss");
+"use strict";
 
-            content = content.__esModule ? content.default : content;
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __webpack_require__(/*! react */ "react");
+const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+const ServiceModal = (props) => {
+    let [show, setShow] = React.useState(props.show);
+    let [dataSet, setDataSet] = React.useState([]);
+    let [filter, setFilter] = React.useState("pending");
+    React.useEffect(() => {
+        setShow(props.show);
+    }, [props.show]);
+    React.useEffect(() => {
+        if (!show)
+            props.onClose();
+    }, [show]);
+    React.useEffect(() => {
+        let d = props.data.filter((item) => {
+            return (item.status.toLowerCase() == filter.toLowerCase());
+        });
+        setDataSet(d);
+    }, [filter]);
+    const headerContent = React.createElement("div", { className: "srm-header" },
+        React.createElement("div", { className: "title" },
+            React.createElement("div", { className: "icon" }),
+            React.createElement("div", { className: "text" }, "A/C Extension Requests")),
+        React.createElement("div", { className: "filters" },
+            React.createElement("div", { className: `filter ${filter == "pending" && " active "} pending`, onClick: () => setFilter("pending") }, "pending"),
+            React.createElement("div", { className: `filter ${filter == "approved" && " active "}  approved`, onClick: () => setFilter("approved") }, "Approved"),
+            React.createElement("div", { className: `filter ${filter == "rejected" && " active "}  rejected`, onClick: () => setFilter("rejected") }, "Rejected")),
+        React.createElement("div", null));
+    return (React.createElement(components_1.Modal, { show: show, onOpen: () => { }, onClose: () => setShow(false), headerContent: headerContent, class: "sr-modal" },
+        React.createElement("div", { className: "data-list" }, dataSet.map((item, key) => {
+            return (React.createElement("div", { className: `data-item ${filter.toLowerCase()} ` },
+                React.createElement("div", { className: "indicator" },
+                    React.createElement("div", null)),
+                React.createElement("div", { className: "request" }, item.request),
+                React.createElement("div", { className: "description" },
+                    " ",
+                    item.user,
+                    " "),
+                React.createElement("div", { className: "section" },
+                    " ",
+                    item.section,
+                    " "),
+                React.createElement("div", { className: "date" },
+                    " ",
+                    item.date,
+                    " "),
+                React.createElement("div", { className: "action" }, item.status.toLowerCase() == "pending" &&
+                    React.createElement("div", { className: "approve" },
+                        React.createElement("div", { className: "icon-container" },
+                            React.createElement("div", { className: "icon" }))))));
+        }))));
+};
+exports.default = ServiceModal;
 
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
 
 /***/ }),
 
@@ -649,94 +805,17 @@ module.exports = content.locals || {};
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const React = __webpack_require__(/*! react */ "react");
 const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
-__webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
-const FilterPanel_1 = __webpack_require__(/*! ./filter-panel/FilterPanel */ "./src/filter-panel/FilterPanel.tsx");
-class AfterHoursACRequestWidget extends React.Component {
-    render() {
-        return (React.createElement(React.Fragment, null,
-            React.createElement("div", { className: "ac-request-container" },
-                React.createElement("div", { className: "header" },
-                    React.createElement("div", { className: "title" },
-                        React.createElement("div", { className: "icon" }),
-                        React.createElement("div", { className: "text" }, "After Hours A/C Requests")),
-                    React.createElement("div", { className: "filter-container" },
-                        React.createElement(FilterPanel_1.default, { onOpen: () => { }, onClose: () => { } },
-                            React.createElement("div", { className: "filter-item" },
-                                React.createElement("label", { htmlFor: "" }, "Filter By"),
-                                React.createElement("select", { name: "", id: "" },
-                                    React.createElement("option", { value: "" }, " Select a Filter"))),
-                            React.createElement("div", { className: "filter-item" },
-                                React.createElement("label", { htmlFor: "" }, "Sort By"),
-                                React.createElement("select", { name: "", id: "" },
-                                    React.createElement("option", { value: "" }, " Select a Option")))))),
-                React.createElement("div", { className: "body" },
-                    React.createElement("div", { className: "ac-request-thumbnail pending" },
-                        React.createElement("div", { className: "status-indicator" }),
-                        React.createElement("div", { className: "request-details" },
-                            React.createElement("div", { className: "request" }, "A/C Extension Request #81"),
-                            React.createElement("div", { className: "user" }, "Carrie Mathew"),
-                            React.createElement("div", { className: "section" }, "Design Team")),
-                        React.createElement("div", { className: "status" },
-                            React.createElement("div", { className: "label" }, "Pending"),
-                            React.createElement("div", { className: "date" }, "23/07/2020"))),
-                    React.createElement("div", { className: "ac-request-thumbnail approved" },
-                        React.createElement("div", { className: "status-indicator" }),
-                        React.createElement("div", { className: "request-details" },
-                            React.createElement("div", { className: "request" }, "A/C Extension Request #81"),
-                            React.createElement("div", { className: "user" }, "Carrie Mathew"),
-                            React.createElement("div", { className: "section" }, "Design Team")),
-                        React.createElement("div", { className: "status" },
-                            React.createElement("div", { className: "label" }, "approved"),
-                            React.createElement("div", { className: "date" }, "23/07/2020"))),
-                    React.createElement("div", { className: "ac-request-thumbnail rejected" },
-                        React.createElement("div", { className: "status-indicator" }),
-                        React.createElement("div", { className: "request-details" },
-                            React.createElement("div", { className: "request" }, "A/C Extension Request #81"),
-                            React.createElement("div", { className: "user" }, "Carrie Mathew"),
-                            React.createElement("div", { className: "section" }, "Design Team")),
-                        React.createElement("div", { className: "status" },
-                            React.createElement("div", { className: "label" }, "rejected"),
-                            React.createElement("div", { className: "date" }, "23/07/2020"))),
-                    React.createElement("div", { className: "ac-request-thumbnail rejected" },
-                        React.createElement("div", { className: "status-indicator" }),
-                        React.createElement("div", { className: "request-details" },
-                            React.createElement("div", { className: "request" }, "A/C Extension Request #81"),
-                            React.createElement("div", { className: "user" }, "Carrie Mathew"),
-                            React.createElement("div", { className: "section" }, "Design Team")),
-                        React.createElement("div", { className: "status" },
-                            React.createElement("div", { className: "label" }, "rejected"),
-                            React.createElement("div", { className: "date" }, "23/07/2020"))),
-                    React.createElement("div", { className: "ac-request-thumbnail pending" },
-                        React.createElement("div", { className: "status-indicator" }),
-                        React.createElement("div", { className: "request-details" },
-                            React.createElement("div", { className: "request" }, "A/C Extension Request #81"),
-                            React.createElement("div", { className: "user" }, "Carrie Mathew"),
-                            React.createElement("div", { className: "section" }, "Design Team")),
-                        React.createElement("div", { className: "status" },
-                            React.createElement("div", { className: "label" }, "Pending"),
-                            React.createElement("div", { className: "date" }, "23/07/2020"))),
-                    React.createElement("div", { className: "ac-request-thumbnail approved" },
-                        React.createElement("div", { className: "status-indicator" }),
-                        React.createElement("div", { className: "request-details" },
-                            React.createElement("div", { className: "request" }, "A/C Extension Request #81"),
-                            React.createElement("div", { className: "user" }, "Carrie Mathew"),
-                            React.createElement("div", { className: "section" }, "Design Team")),
-                        React.createElement("div", { className: "status" },
-                            React.createElement("div", { className: "label" }, "approved"),
-                            React.createElement("div", { className: "date" }, "23/07/2020")))))));
-    }
-}
+const AfterHoursAcRequestWidget_1 = __webpack_require__(/*! ./AfterHoursAcRequestWidget */ "./src/AfterHoursAcRequestWidget.tsx");
 uxp_1.registerWidget({
-    "guid": "df558fd3-3963-4f5a-cf06-4defe2e3e7f9",
-    "name": "After Hours AC Request",
-    "widget": AfterHoursACRequestWidget,
+    "guid": "08b88339-d2eb-4e72-a7ff-e457e8f3228a",
+    "name": "After Hours Ac Request",
+    "widget": AfterHoursAcRequestWidget_1.default,
     "configs": {
+        "layout": { w: 11, h: 12, minW: 11, minH: 9 },
         "container": {
             "background": "transparent"
-        },
-        "layout": { w: 5, h: 12, minW: 5, minH: 12 }
+        }
     }
 });
 
@@ -805,14 +884,14 @@ module.exports = React;
 
 /***/ }),
 
-/***/ "react-dom":
-/*!***************************!*\
-  !*** external "ReactDOM" ***!
-  \***************************/
+/***/ "uxp/components":
+/*!********************************!*\
+  !*** external "UXPComponents" ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ReactDOM;
+module.exports = UXPComponents;
 
 /***/ })
 
