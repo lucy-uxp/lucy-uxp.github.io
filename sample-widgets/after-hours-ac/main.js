@@ -808,7 +808,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
 const AfterHoursAcRequestWidget_1 = __webpack_require__(/*! ./AfterHoursAcRequestWidget */ "./src/AfterHoursAcRequestWidget.tsx");
 uxp_1.registerWidget({
-    "guid": "08b88339-d2eb-4e72-a7ff-e457e8f3228a",
+    "id": "08b88339-d2eb-4e72-a7ff-e457e8f3228a",
     "name": "After Hours Ac Request",
     "widget": AfterHoursAcRequestWidget_1.default,
     "configs": {

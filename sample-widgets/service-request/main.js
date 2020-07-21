@@ -845,7 +845,7 @@ const ServiceRequestLowPriorityWidget = (props) => {
 };
 // register widget
 uxp_1.registerWidget({
-    "guid": "64ee6224-07c3-40c3-9377-1194be887a7a",
+    "id": "64ee6224-07c3-40c3-9377-1194be887a7a",
     "name": "Service Request High Priority",
     "widget": ServiceRequestHighPriorityWidget,
     "configs": {
@@ -856,7 +856,7 @@ uxp_1.registerWidget({
     }
 });
 uxp_1.registerWidget({
-    "guid": "fb1071ac-eb41-4181-ede6-c3d705e5ac04",
+    "id": "fb1071ac-eb41-4181-ede6-c3d705e5ac04",
     "name": "Service Request Low Priority",
     "widget": ServiceRequestLowPriorityWidget,
     "configs": {
