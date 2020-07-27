@@ -31,7 +31,8 @@
             "./sample-widgets/after-hours-ac/main.js",
             "./sample-widgets/visitor-summary/main.js",
             "./sample-widgets/meeting-invites/main.js",
-            "./sample-widgets/service-request/main.js"
+            "./sample-widgets/service-request/main.js",
+            "./sample-widgets/tenant-communication/main.js",
         ]
 
         window.Widgets = [];
@@ -44,14 +45,32 @@
        // context provider value
         // define all variables here
         // ex : logged-in user details, theme, base urls
+        let installedWidgets = [];
+        try {
+            installedWidgets = JSON.parse(localStorage.getItem('uxp-widgets')) || [];
+        } catch (e) {
 
+        }
+        let deletedWidgets = [];
         let contextProviderValue = {
-            root: "root", 
-            sidebarItems:[], 
+            userKey: "user_001",
+            root: "root",
+            sidebarItems: () => (window.SidebarLinks || []).map(s => s.id),
             scriptFiles: scripts, // widget script files
-            widgetManager : {
+            apiKey: 'SC:lucy1:0a54e97781330018',
+            widgetManager: {
                 loadFromMarketPlace: false,
-                url: ""
+                url: "http://lucy1.local:5000/api/UXP/search",
+                getInstalledWidgets: () => installedWidgets,
+                getDeletedWidgets: () => deletedWidgets,
+                onWidgetsChanged: (added, deleted) => {
+                    return new Promise((resolve, reject) => {
+                        installedWidgets = added;
+                        deletedWidgets = deleted;
+                        localStorage.setItem('uxp-widgets', JSON.stringify(installedWidgets));
+                        resolve();
+                    });
+                }
             }
         }
         
