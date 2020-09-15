@@ -6,9 +6,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
-    <link rel="stylesheet" href="https://uxp.s3.amazonaws.com/dist/master/uxp_dashboard.css">
+    <link rel="stylesheet" href="https://uxp.s3.amazonaws.com/dist/dev/uxp_dashboard.css">
 
-    <title>Experience Portal (Master)</title>
+    <title>Experience Portal (Dev)</title>
 </head>
 
 <body>
@@ -23,21 +23,23 @@
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 
+
+
     <script crossorigin src="https://unpkg.com/prop-types/prop-types.min.js"></script>
     <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/recharts/1.8.5/Recharts.min.js"></script>
 
     <!-- Main -->
 
-    <script src="https://uxp.s3.amazonaws.com/dist/master/main.js"></script>
+    <script src="https://uxp.s3.amazonaws.com/dist/dev/main.js"></script>
 
     <script>
         
         let scripts = [
-            "./sample-widgets/after-hours-ac/main.js",
-            "./sample-widgets/visitor-summary/main.js",
-            "./sample-widgets/meeting-invites/main.js",
-            "./sample-widgets/service-request/main.js",
-            "./sample-widgets/tenant-communication/main.js",
+            "../sample-widgets/after-hours-ac/main.js",
+            "../sample-widgets/visitor-summary/main.js",
+            "../sample-widgets/meeting-invites/main.js",
+            "../sample-widgets/service-request/main.js",
+            "../sample-widgets/tenant-communication/main.js",
         ]
 
         window.Widgets = [];
