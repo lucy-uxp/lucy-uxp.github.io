@@ -602,7 +602,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".config-container {\n  width: 100%;\n  height: auto;\n  max-height: 80vh;\n  overflow-y: auto;\n  overflow-x: hidden;\n  display: flex;\n  align-items: flex-start;\n  justify-content: space-between;\n  padding: 30px; }\n  .config-container .row {\n    display: flex; }\n\n.ff-fade-enter .uxp-filter-panel {\n  transform: scale(0);\n  transform-origin: top right; }\n\n.ff-fade-enter-active .uxp-filter-panel {\n  transform: scale(1);\n  transition: transform var(--ot) cubic-bezier(var(--x1), var(--x2), var(--x3), var(--x4)) var(--od); }\n\n.ff-fade-exit .uxp-filter-panel {\n  transform: scale(1);\n  transform-origin: top right; }\n\n.ff-fade-exit-active .uxp-filter-panel {\n  transform: scale(0.1);\n  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1) 100ms; }\n", ""]);
+exports.push([module.i, ".config-container {\n  width: 100%;\n  height: 80vh;\n  overflow-y: auto;\n  overflow-x: hidden;\n  display: flex;\n  align-items: flex-start;\n  justify-content: flex-start;\n  padding: 30px;\n  flex-wrap: wrap; }\n  .config-container .row {\n    display: flex; }\n  .config-container .form {\n    width: 60%;\n    flex-grow: 0;\n    flex-shrink: 0; }\n  .config-container .example {\n    width: 40%;\n    flex-grow: 0;\n    flex-shrink: 0; }\n    .config-container .example .ex {\n      display: flex;\n      justify-content: flex-end; }\n  .config-container .uxp-form-group {\n    margin: 0; }\n\ncode {\n  padding: 25px;\n  background-color: black;\n  color: white !important;\n  border-radius: 10px; }\n  code span {\n    background-color: blueviolet;\n    padding: 5px;\n    border-radius: 10px;\n    margin: 4px; }\n\n.ff-fade-enter .uxp-filter-panel {\n  transform: scale(0);\n  transform-origin: top right; }\n\n.ff-fade-enter-active .uxp-filter-panel {\n  transform: scale(1);\n  transition: transform var(--ot) cubic-bezier(var(--x1), var(--x2), var(--x3), var(--x4)) var(--od); }\n\n.ff-fade-exit .uxp-filter-panel {\n  transform: scale(1);\n  transform-origin: top right; }\n\n.ff-fade-exit-active .uxp-filter-panel {\n  transform: scale(0.1);\n  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1) 100ms; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -16120,7 +16120,7 @@ const FilterPanel = (props) => {
     let filterButtonRef = React.useRef(null);
     let filterPanelContainer = React.useRef(null);
     // props
-    let { onOpen, onClose, onClear, fillContainer, className, enableClear, children, styles } = props;
+    let { onOpen, onClose, onClear, fillContainer, className, enableClear, children, styles, timeout } = props;
     // update coordinates of filter panel
     const updateTooltipCoords = (button) => {
         const buttonDetails = button.getBoundingClientRect();
@@ -16173,7 +16173,7 @@ const FilterPanel = (props) => {
             }, ref: filterButtonRef },
             React.createElement("div", { className: "icon-container" },
                 React.createElement("div", { className: "icon" }))),
-        React.createElement(react_transition_group_1.CSSTransition, { in: showPanel, timeout: 200, classNames: "ff-fade", unmountOnExit: true },
+        React.createElement(react_transition_group_1.CSSTransition, { in: showPanel, timeout: timeout, classNames: "ff-fade", unmountOnExit: true },
             React.createElement(PortalContainer_1.default, null,
                 React.createElement("div", { className: "uxp-filter-panel-container", ref: filterPanelContainer },
                     React.createElement("div", { className: classNames("uxp-filter-panel", className), style: Object.assign(Object.assign({}, coords), styles), ref: filterPanelRef },
@@ -16378,9 +16378,28 @@ const Filter_sampleWidget = (props) => {
                         React.createElement(components_1.FormField, null,
                             React.createElement(react_input_range_1.default, { maxValue: 10, minValue: -10, value: x4, onChange: value => setX4(value), step: 0.01 }))))),
             React.createElement("div", { className: "example" },
-                React.createElement(FilterPanel_1.default, { styles: styles },
-                    React.createElement(components_1.FormField, null,
-                        React.createElement(components_1.Input, { value: "", onChange: () => { } })))))));
+                React.createElement("div", { className: "ex" },
+                    React.createElement(FilterPanel_1.default, { styles: styles, timeout: parseInt(ot) + parseInt(od) },
+                        React.createElement(components_1.FormField, null,
+                            React.createElement(components_1.Input, { value: "", onChange: () => { } }))))),
+            React.createElement("div", { className: "code" },
+                React.createElement(components_1.FormField, null,
+                    React.createElement("code", null,
+                        "transition: transform ",
+                        React.createElement("span", null,
+                            ot,
+                            "ms"),
+                        " cubic-bezier(",
+                        React.createElement("span", null, x1),
+                        ", ",
+                        React.createElement("span", null, x2),
+                        ", ",
+                        React.createElement("span", null, x3),
+                        ", ",
+                        React.createElement("span", null, x4),
+                        ") ",
+                        React.createElement("span", null, od),
+                        ";"))))));
 };
 uxp_1.registerWidget({
     "id": "filter_sample",
