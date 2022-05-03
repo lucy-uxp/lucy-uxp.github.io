@@ -42,7 +42,7 @@
             environment: "dev",
             userKey: "user_001",
             root: "root",
-            sidebarItems: () => (window.SidebarLinks || []).map(s => s.id),
+            sidebarItems: window.SidebarLinks || [],
             scriptFiles: [], // widget script files
             apiKey: 'SC:lucy1:0a54e97781330018',
             widgetManager: null,
